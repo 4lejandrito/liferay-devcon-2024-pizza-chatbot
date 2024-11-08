@@ -54,7 +54,8 @@ function Chatbot() {
             },
             body: JSON.stringify({
               messages: newMessages,
-              openAPIURL: "http://localhost:8080/o/c/pizzaorders/openapi.yaml",
+              openAPIURL:
+                "https://hopelessly-touched-bluegill.ngrok-free.app/o/c/devcon2024pizzaworkshopratings/openapi.yaml",
             }),
           });
 
