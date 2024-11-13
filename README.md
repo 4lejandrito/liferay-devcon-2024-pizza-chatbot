@@ -23,6 +23,7 @@ https://chatgpt.com/g/g-jAkLiTuyU-liferay-devcon-2024-pizza-chatbot
     ```bash
     OPENAI_API_KEY=**** blade server run -d
     ```
+    > The issue we encountered during the live presentation was due to OpenAI detecting exposed keys in public GitHub repositories and automatically disabling them. As soon as I made the repository public, the key was deactivated.
 6. Deploy the code:
     ```bash
     blade deploy
