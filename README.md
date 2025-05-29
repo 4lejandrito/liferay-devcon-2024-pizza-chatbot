@@ -1,10 +1,10 @@
-# Liferay Devcon 2024 Pizza Chatbot
+# Liferay Pizza Chatbot
 
 ![Architecture](architecture.png)
 
 ## Custom GPT
 
-https://chatgpt.com/g/g-jAkLiTuyU-liferay-devcon-2024-pizza-chatbot
+https://chatgpt.com/g/g-jAkLiTuyU-liferay-pizza-chatbot
 
 ## Liferay Chatbot
 
@@ -32,7 +32,7 @@ https://chatgpt.com/g/g-jAkLiTuyU-liferay-devcon-2024-pizza-chatbot
     ```bash
     curl -X POST \
       -H 'Content-Type: application/json' \
-      -u test@liferay.com:devcon \
+      -u test@liferay.com:lugspain \
       http://localhost:8080/o/chatbot/v1.0/chat \
       -d '{
         "openAPIURL": "http://localhost:8080/o/c/pizzaorders/openapi.yaml",
