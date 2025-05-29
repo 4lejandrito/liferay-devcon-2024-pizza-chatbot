@@ -5,7 +5,7 @@
 			"role": "system"
 		}
 	],
-	"model": "gpt-4o",
+	"model": "gpt-4.1",
 	"tools": [
 		{
 			"function": {
